@@ -1,0 +1,7 @@
+*.egg-info
+*.pyc
+/.env
+*.webarchive
+*.html
+.DS_Store
+.vscode
