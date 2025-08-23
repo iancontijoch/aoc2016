@@ -1,0 +1,6 @@
+answer: 1583
+That's not the right answer; your answer is too high.
+
+> 2370 μs
+answer: 982
+That's the right answer!
