@@ -9,11 +9,6 @@ import support
 
 INPUT_TXT = os.path.join(os.path.dirname(__file__), 'input.txt')
 
-turns = {
-    'R': support.Direction4.cw,
-    'L': support.Direction4.ccw,
-}
-
 def dist(x1: int, y1: int, x2: int, y2: int):
     return abs(x2 - x1) + abs(y2 - y1)
 
