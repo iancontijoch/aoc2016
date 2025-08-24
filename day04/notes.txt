@@ -1,0 +1,11 @@
+> 5475 μs
+answer: 0
+That's not the right answer.
+
+> 5626 μs
+answer: 666
+That's not the right answer; your answer is too low.
+
+> 5897 μs
+answer: 361724
+That's the right answer!
