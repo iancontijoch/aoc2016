@@ -9,3 +9,26 @@ That's not the right answer; your answer is too low.
 > 5897 μs
 answer: 361724
 That's the right answer!
+
+
+== Part 2 ==
+answer: 599
+That's not the right answer; your answer is too high.
+
+answer: 261
+That's not the right answer; your answer is too low.
+
+answer: 313
+That's not the right answer; your answer is too low.
+
+answer: 339
+That's not the right answer.
+
+answer: 573
+That's not the right answer.
+
+answer: 365
+That's not the right answer.
+
+answer: 482
+That's the right answer!
