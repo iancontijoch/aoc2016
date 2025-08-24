@@ -1,0 +1,17 @@
+== part 1 ==
+
+> 14463 μs
+answer: 82
+That's not the right answer.
+
+> 12691 μs
+answer: 59
+That's not the right answer.
+
+> 23074 μs
+answer: 91
+That's not the right answer.
+
+> 26670 μs
+answer: 118
+That's the right answer!
