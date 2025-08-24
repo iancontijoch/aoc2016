@@ -20,7 +20,7 @@ keypad = {
     (0, 0): 1,
     (1, 0): 2,
     (2, 0): 3,
-    (0, 1): 4, 
+    (0, 1): 4,
     (1, 1): 5,
     (2, 1): 6,
     (0, 2): 7,
@@ -28,20 +28,21 @@ keypad = {
     (2, 2): 9,
 }
 
+
 def compute(s: str) -> int:
     lines = s.splitlines()
-    
+
     coords = {
         (x, y)
         for y in range(3)
         for x in range(3)
     }
-    
+
     pos = (1, 1)
     res = ''
     for line in lines:
         for d in line:
-            cand = dirs.get(d).apply(*pos)
+            cand = dirs.get(d, support.Direction4.UP).apply(*pos)
             pos = cand if cand in coords else pos
         res += str(keypad.get(pos))
     return int(res)

@@ -33,14 +33,15 @@ keypad = {
 
 }
 
-def compute(s: str) -> int:
+
+def compute(s: str) -> str:
     lines = s.splitlines()
-     
+
     pos = (0, 2)
     res = ''
     for line in lines:
         for d in line:
-            cand = dirs.get(d).apply(*pos)
+            cand = dirs.get(d, support.Direction4.UP).apply(*pos)
             pos = cand if cand in keypad else pos
         res += str(keypad.get(pos))
     return res

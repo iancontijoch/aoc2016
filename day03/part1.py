@@ -26,7 +26,7 @@ def compute(s: str) -> int:
             (1, (0, 2)),
             (2, (0, 1)),
         )
-        
+
         is_valid = all(
             sum(numbers[s] for s in sides) > numbers[remaining]
             for remaining, sides in combos

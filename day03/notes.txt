@@ -1,6 +1,12 @@
+== part 1 ==
 answer: 1583
 That's not the right answer; your answer is too high.
 
 > 2370 μs
 answer: 982
+That's the right answer!
+
+== part 2 ==
+> 2573 μs
+answer: 1826
 That's the right answer!
