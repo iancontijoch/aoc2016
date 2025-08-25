@@ -1,5 +1,4 @@
 == part 1 ==
-
 > 14463 μs
 answer: 82
 That's not the right answer.
@@ -14,4 +13,9 @@ That's not the right answer.
 
 > 26670 μs
 answer: 118
+That's the right answer!
+
+== part 2 ==
+> 14516 μs
+answer: 260
 That's the right answer!
