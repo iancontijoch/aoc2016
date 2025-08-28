@@ -7,3 +7,8 @@ That's not the right answer.
 > 32454 ms
 answer: 47
 That's the right answer!
+
+== part 2 ==
+> 313 ms
+answer: 71
+That's the right answer!
