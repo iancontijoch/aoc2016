@@ -1,0 +1,9 @@
+== part 1 ==
+
+> 1953 ms
+answer: 37
+That's not the right answer.
+
+> 32454 ms
+answer: 47
+That's the right answer!
