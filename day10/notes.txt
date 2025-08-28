@@ -1,0 +1,9 @@
+== part2 ==
+
+> 1194 μs
+answer: 40729680599249024150621323470
+That's not the right answer; your answer is too high.
+
+> 1179 μs
+answer: 55637
+That's the right answer!
