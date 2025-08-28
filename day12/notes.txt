@@ -6,3 +6,8 @@ That's not the right answer.
 > 140 ms
 answer: 318077
 That's the right answer!
+
+== part 2 ==
+> 3821 ms
+answer: 9227731
+That's the right answer!
