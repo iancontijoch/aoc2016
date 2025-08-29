@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import os.path
 from collections import deque
+from collections.abc import Sequence
 from typing import TypeAlias
 
 import pytest
@@ -37,7 +38,7 @@ def compute(s: str, end: tuple[int, int]) -> int:
     visited: set[Pos] = set()
 
     def bfs(
-        todo: list[tuple[Pos, int]],
+        todo: Sequence[tuple[Pos, int]],
         seen: set[Pos] | None = None,
     ) -> int:
         if seen is None:
