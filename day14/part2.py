@@ -32,8 +32,7 @@ def compute(s: str) -> int:
         if match:
             c = match.groups()[0]
             j = i + 1
-            next_thousand = j + 999
-            while j < next_thousand:
+            while j < i + 1000:
                 hash_str_j = _stretch_hash(salt, j)
                 match = re.search(c * 5, hash_str_j)
                 if match:

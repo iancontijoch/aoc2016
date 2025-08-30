@@ -4,6 +4,7 @@ import argparse
 import hashlib
 import os.path
 import re
+from functools import lru_cache
 
 import pytest
 
@@ -17,19 +18,19 @@ def compute(s: str) -> int:
     keys: set[int] = set()
     salt = lines[0]
 
+    @lru_cache(maxsize=None)
+    def _hash(salt: str, i: int) -> str:
+        return hashlib.md5(f"{salt}{i}".encode()).hexdigest()
+
     i = 0
     while len(keys) < 65:
-        hash_str_i = hashlib.md5(f"{salt}{i}".encode()).hexdigest()
+        hash_str_i = _hash(salt, i)
         match = re.search(r'(\w)\1{2}', hash_str_i)
         if match:
             c = match.groups()[0]
             j = i + 1
-            next_thousand = j + 999
-            while j < next_thousand:
-                hash_str_j = hashlib.md5(
-                    f"{salt}{j}".encode(),
-                ).hexdigest()
-
+            while j < i + 1000:
+                hash_str_j = _hash(salt, j)
                 match = re.search(c * 5, hash_str_j)
                 if match:
                     keys.add(i)
