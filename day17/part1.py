@@ -56,8 +56,7 @@ def compute(s: str) -> str | None:
                     shortest_path = path
                 elif len(path) < len(shortest_path):
                     shortest_path = path
-                else:
-                    continue
+                continue
 
             hash_str = hash(line + path)
 
