@@ -9,3 +9,20 @@ That's not the right answer; your answer is too low.
 > 98783 μs
 answer: 934
 That's the right answer!
+
+== part 2 ==
+> 260 ms
+answer: 160
+That's not the right answer; your answer is too low.
+
+> 266 ms
+answer: 161
+That's not the right answer; your answer is too low.
+
+> 264 ms
+answer: 189
+That's not the right answer; your answer is too low.
+
+> 272 ms
+answer: 207
+That's the right answer!
