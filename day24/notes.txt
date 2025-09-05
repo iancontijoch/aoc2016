@@ -1,0 +1,10 @@
+== part 1 ==
+answer: 852
+That's not the right answer; your answer is too high.
+
+answer: 644
+That's not the right answer; your answer is too high.
+
+> 4006 ms
+answer: 428
+That's the right answer!
