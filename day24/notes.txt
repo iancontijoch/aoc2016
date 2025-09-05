@@ -8,3 +8,7 @@ That's not the right answer; your answer is too high.
 > 4006 ms
 answer: 428
 That's the right answer!
+
+> 4107 ms
+answer: 680
+That's the right answer!
